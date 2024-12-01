@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            position: relative;
+        }
+        .container img{
+            height: 100vh;
+            width: 100%;
+            filter: blur(3px);
+        }
+        .box1{
+            position: absolute;
+            top: 0%;
+            border:1px solid black;
+            border-radius: 5px;
+            font-size: x-large;
+            background-color: rgb(244, 153, 62);
+            padding: 20px;
+            width: 100%;
+            box-shadow: 10px 5px 3px 5px white;
+
+        }
+        .box, h1,p{
+            text-align: center;
+        }
+        .box2{
+            position: absolute;
+            top: 25%;
+            border:1px solid black;
+            border-radius: 20px;
+            font-size: x-large;
+            background-color: rgb(135, 184, 236);
+            padding: 20px;
+            width: 40%;
+            box-shadow: 5px 1px 10px 1px white;
+            height: 350px;
+            left: 5%;
+
+        }
+        .box2 h2{
+            border-bottom: 2px solid black;
+            text-align: center;
+            
+        }
+        .box3{
+            position: absolute;
+            top: 25%;
+            border:1px solid black;
+            border-radius: 20px;
+            font-size: x-large;
+            background-color: rgb(135, 184, 236);
+            padding: 20px;
+            width: 40%;
+            box-shadow: 5px 1px 10px 1px white;
+            height: 350px;
+            left: 55%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .box3 h2{
+            border-bottom: 2px solid black;
+            text-align: center;
+            
+        }
+        .box3 p,.box2 p{
+            padding: 30px 0px 0px 0px;
+
+        }
+        .box2 button{
+    
+            margin: 35px 0px 10px 280px;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 20px;
+            width: 80px;
+            height: 45px;
+        }
+        .box2 a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="http://imsec.ac.in/assets/images/about/about-imsec.jpg" alt="error">
+    </div>
+    <div class="box1">
+        <h1 class="animate__animated animate__fadeInDown">Welcome to my page</h1>
+    </div>
+    <div class="box2">
+        <h2>About IMSEC</h2>
+        <p>According to the Times Engineering Institute Ranking Survey 2023, IMSEC secures impressive positions, ranking 4th in the Northern Region, 13th among the Top 70 Private Institutes for Placement, 16th among the Top 125 Private Engineering Institutes, 18th among the Top 170 Engineering Institutes and 19th among the Top 30 Institutes for Research Capability.</p>
+        <button value="more"><a href="http://imsec.ac.in/">more</a></button>
+    </div>
+    <div class="box3 ">
+        <h2>My Branch</h2>
+        <p>Computer Science Engineering (CSE) is an engineering course that teaches students how to design, develop, implement, and maintain computer systems, software, and networks.<br><br>
+          <b>  Some of the core subjects in the CSE syllabus include:</b>
+Operating systems, Design and analysis of algorithms, Programming languages, Microprocessors, Cryptography, and Network security.
+        </p>
+    </div>
+</body>
+</html>
